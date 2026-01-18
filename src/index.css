@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import "tailwindcss";
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+.input{
+  color: #61210F !important;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #FDF0D5 !important;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #FDF0D5;
+  background-color: #61210F;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #61210F;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #61210F;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif ;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #61210F !important;
+  padding: 1em 1.5em !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  font-family: inherit;
+  background-color: #FDF0D5 !important;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-family: "Oswald", sans-serif !important;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+button:hover {
+  border-color: #61210F !important;
+  color: #61210F !important;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #E0B1CB;
+    background-color: #231942;
+  }
+  a:hover {
+    color: #61210F;
+  }
+  button {
+    background-color: #61210F;
+  }
+}
